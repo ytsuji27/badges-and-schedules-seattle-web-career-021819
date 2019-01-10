@@ -11,8 +11,12 @@ def batch_badge_creator(array)
 end
 
 
-def assign_rooms(list)
-  list.each_with_index.map do |name, index|
+def assign_rooms(array)
+  array.each_with_index.map do |name, index|
     "Hello, #{name}! You'll be assigned to room #{index+1}!"
   end
 end
+
+
+def printer(array)
+  
