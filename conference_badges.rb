@@ -13,6 +13,6 @@ end
 
 def assign_rooms(list)
   list.map do |name|
-    "Hello, #{name}! You'll be assigned to room #{list[name]}!"
+    "Hello, #{name}! You'll be assigned to room !"
   end
 end
